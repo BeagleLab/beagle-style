@@ -1,0 +1,204 @@
+.bs-docs-header {
+  background-color: #06B8C7;
+  background-image: -webkit-linear-gradient(top,#057A75 0,#058199 100%);
+  background-image: linear-gradient(to bottom,#057A75 0,#058199 100%);
+  color: #BFE3E2;
+
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+}
+
+.paper-example {
+  position: relative;
+  height: 680px;
+  width: 720px;
+
+  img#paper {
+    width:100%;
+  }
+}
+
+.scinav {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 350px;
+  // border: 1px solid #c00;
+
+  .red {
+    background-color: red;
+  }
+
+  .yellow {
+    background-color: yellow;
+  }
+
+  .cyan {
+    background-color: cyan;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .gray {
+    color: #bbb;
+  }
+
+  .margin {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    bottom: 0px;
+    width: 10px;
+    background-color: rgba(100, 100, 100, 0.1);
+
+    .margin-highlight {
+      opacity: 0.4;
+      position: absolute;
+      height: 20px;
+      width: 10px;
+    }
+
+    .tooltip {
+      min-width: 200px;
+    }
+
+  }
+
+  .pane, .pane-bg {
+    position: absolute;
+    top: 55px;
+    right:10px;
+    bottom:0px;
+    width: 150px;
+    padding: 10px;
+
+    .sep {
+      border-bottom: 1px solid #fff;
+      height: 0px;
+      margin: 10px 0px;
+      width: 100%;
+    }
+
+    ul {
+      padding-left: 10px;
+    }
+
+    #other-btns {
+      button, a {
+        padding: 3px 6px;
+      }
+    }
+
+    .alert {
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+
+    .btn-toolbar button.btn {
+      padding: 5px 10px;
+    }
+
+    button.alert, a.alert {
+      i {
+        margin: 0px 3px;
+        text-align: center;
+        width: 10px;
+      }
+
+      display: block;
+      text-align: left;
+      width: 135px;
+    }
+
+    button.btn, a.btn {
+      font-size: 11px;
+    }
+
+    font-size: 11px;
+  }
+
+  .subpanel, .subpanel-bg {
+    position: absolute;
+    top: 105px;
+    right:160px;
+    bottom:100px;
+    width: 400px;
+  }
+
+}
+
+.glass {
+  background:cyan;
+  background:rgba(250,255,255,0.85);
+
+  filter:blur(4px);
+  -o-filter:blur(4px);
+  -ms-filter:blur(4px);
+  -moz-filter:blur(4px);
+  -webkit-filter:blur(4px);
+}
+
+ul.no-bullet {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.profile {
+  .profile-image {
+    width: 140px;
+  }
+
+  .profile-header-info {
+    h3 {
+      margin-top: 0px;
+    }
+    width: 210px;
+    float: right;
+  }
+
+  .publications {
+    margin-top: 30px;
+  }
+}
+
+
+.text-highlights {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+
+  .text-highlight {
+    opacity: 0.4;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+#tags {
+  a.alert {
+    i {
+      margin: 0px 3px;
+      text-align: center;
+      width: 10px;
+    }
+
+    display: inline-block;
+    text-align: left;
+    font-size: 11px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "beagle-style",
+  "version": "0.0.0",
+  "description": "The Beagle Style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BeagleLab/beagle-style.git"
+  },
+  "keywords": [
+    "css",
+    "beagle"
+  ],
+  "author": "Richard Littauer <richard.littauer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BeagleLab/beagle-style/issues"
+  },
+  "homepage": "https://github.com/BeagleLab/beagle-style",
+  "dependencies": {
+    "gulp": "^3.8.8"
+  }
+}
