@@ -19,7 +19,7 @@
   top: 0px;
   right: 0px;
   bottom: 0px;
-  width: 350px; }
+  width: 300px; }
   .scinav .red {
     background-color: red; }
   .scinav .yellow {
@@ -46,10 +46,10 @@
       min-width: 200px; }
   .scinav .pane, .scinav .pane-bg {
     position: absolute;
-    top: 55px;
+    top: 0px;
     right: 10px;
     bottom: 0px;
-    width: 150px;
+    width: 100%;
     padding: 10px;
     font-size: 11px; }
     .scinav .pane .sep, .scinav .pane-bg .sep {
