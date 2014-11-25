@@ -3,6 +3,10 @@ beagle-style
 
 The Beagle Style
 
-To run:
+####Install
+
+`npm install`
+
+####Run
 
 `gulp sass`   
