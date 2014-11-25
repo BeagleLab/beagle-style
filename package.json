@@ -24,5 +24,8 @@
     "brfs": "^1.2.0",
     "fs": "0.0.2",
     "gulp": "^3.8.8"
+  },
+  "devDependencies": {
+    "reactify": "^0.16.0"
   }
 }
