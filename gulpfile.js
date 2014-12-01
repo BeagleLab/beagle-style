@@ -13,3 +13,5 @@ gulp.task('sass', function () {
     .pipe(minifycss())
     .pipe(gulp.dest('.'));
 });
+
+gulp.task('default', ['sass']);
