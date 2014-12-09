@@ -66,15 +66,15 @@
       margin-bottom: 5px; }
     .scinav .pane .btn-toolbar button.btn, .scinav .pane-bg .btn-toolbar button.btn {
       padding: 5px 10px; }
-    .scinav .pane button.alert, .scinav .pane a.alert, .scinav .pane-bg button.alert, .scinav .pane-bg a.alert {
+    .scinav .pane button.alert, .scinav .pane a.alert, .scinav .pane a.tag, .scinav .pane-bg button.alert, .scinav .pane-bg a.alert, .scinav .pane-bg a.tag {
       display: block;
       text-align: left;
       width: 135px; }
-      .scinav .pane button.alert i, .scinav .pane a.alert i, .scinav .pane-bg button.alert i, .scinav .pane-bg a.alert i {
+      .scinav .pane button.alert i, .scinav .pane a.alert i, .scinav .pane a.tag i, .scinav .pane-bg button.alert i, .scinav .pane-bg a.alert i, .scinav .pane-bg a.tag i {
         margin: 0px 3px;
         text-align: center;
         width: 10px; }
-    .scinav .pane button.btn, .scinav .pane a.btn, .scinav .pane-bg button.btn, .scinav .pane-bg a.btn {
+    .scinav .pane button.btn, .scinav .pane a.btn, .scinav .pane a.tag, .scinav .pane-bg button.btn, .scinav .pane-bg a.btn, .scinav .pane-bg a.tag {
       font-size: 11px; }
   .scinav .subpanel, .scinav .subpanel-bg {
     position: absolute;
@@ -124,13 +124,13 @@ ul.no-bullet {
     height: 20px;
     width: 20px; }
 
-#tags a.alert {
+#tags a.alert, #tags a.tag {
   display: inline-block;
   text-align: left;
   font-size: 11px;
   padding: 5px;
   margin-bottom: 5px; }
-  #tags a.alert i {
+  #tags a.alert i, #tags a.tag i {
     margin: 0px 3px;
     text-align: center;
     width: 10px; }

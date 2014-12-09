@@ -103,7 +103,7 @@
       padding: 5px 10px;
     }
 
-    button.alert, a.alert {
+    button.alert, a.alert, a.tag {
       i {
         margin: 0px 3px;
         text-align: center;
@@ -115,7 +115,7 @@
       width: 135px;
     }
 
-    button.btn, a.btn {
+    button.btn, a.btn, a.tag {
       font-size: 11px;
     }
 
@@ -192,7 +192,7 @@ ul.no-bullet {
 }
 
 #tags {
-  a.alert {
+  a.alert, a.tag {
     i {
       margin: 0px 3px;
       text-align: center;
