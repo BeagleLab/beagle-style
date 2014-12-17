@@ -32,6 +32,8 @@
     background-color: green; }
   .scinav .gray {
     color: #bbb; }
+  .scinav .beagle-header {
+    text-align: center; }
   .scinav .margin {
     position: absolute;
     top: 55px;
