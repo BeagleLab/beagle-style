@@ -15,11 +15,13 @@
     width: 100%; }
 
 .scinav {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 300px; }
+  font-size: 11px; }
+  .scinav.sidebar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 300px; }
   .scinav .red {
     background-color: red; }
   .scinav .yellow {
@@ -50,8 +52,7 @@
     right: 10px;
     bottom: 0px;
     width: 100%;
-    padding: 10px;
-    font-size: 11px; }
+    padding: 10px; }
     .scinav .pane .sep, .scinav .pane-bg .sep {
       border-bottom: 1px solid #fff;
       height: 0px;
@@ -59,29 +60,31 @@
       width: 100%; }
     .scinav .pane ul, .scinav .pane-bg ul {
       padding-left: 10px; }
-    .scinav .pane #other-btns button, .scinav .pane #other-btns a, .scinav .pane-bg #other-btns button, .scinav .pane-bg #other-btns a {
-      padding: 3px 6px; }
-    .scinav .pane .alert, .scinav .pane-bg .alert {
-      padding: 5px;
-      margin-bottom: 5px; }
-    .scinav .pane .btn-toolbar button.btn, .scinav .pane-bg .btn-toolbar button.btn {
-      padding: 5px 10px; }
-    .scinav .pane button.alert, .scinav .pane a.alert, .scinav .pane a.tag, .scinav .pane-bg button.alert, .scinav .pane-bg a.alert, .scinav .pane-bg a.tag {
-      display: block;
-      text-align: left;
-      width: 135px; }
-      .scinav .pane button.alert i, .scinav .pane a.alert i, .scinav .pane a.tag i, .scinav .pane-bg button.alert i, .scinav .pane-bg a.alert i, .scinav .pane-bg a.tag i {
-        margin: 0px 3px;
-        text-align: center;
-        width: 10px; }
-    .scinav .pane button.btn, .scinav .pane a.btn, .scinav .pane a.tag, .scinav .pane-bg button.btn, .scinav .pane-bg a.btn, .scinav .pane-bg a.tag {
-      font-size: 11px; }
   .scinav .subpanel, .scinav .subpanel-bg {
     position: absolute;
     top: 105px;
     right: 160px;
     bottom: 100px;
     width: 400px; }
+  .scinav #other-btns button, .scinav #other-btns a {
+    padding: 3px 6px; }
+  .scinav .alert {
+    padding: 5px;
+    margin-bottom: 5px; }
+  .scinav .btn-toolbar button.btn {
+    padding: 5px 10px; }
+  .scinav button.alert, .scinav a.alert, .scinav a.tag {
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    text-align: left;
+    width: 135px; }
+    .scinav button.alert i, .scinav a.alert i, .scinav a.tag i {
+      margin: 0px 3px;
+      text-align: center;
+      width: 10px; }
+  .scinav button.btn, .scinav a.btn, .scinav a.tag {
+    font-size: 11px; }
 
 .btn-full {
   width: 100%; }

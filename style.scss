@@ -21,12 +21,13 @@
 }
 
 .scinav {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 300px;
-  // border: 1px solid #c00;
+	&.sidebar {
+	  position: absolute;
+	  top: 0px;
+	  right: 0px;
+	  bottom: 0px;
+	  width: 300px;
+	}
 
   .red {
     background-color: red;
@@ -88,38 +89,6 @@
       padding-left: 10px;
     }
 
-    #other-btns {
-      button, a {
-        padding: 3px 6px;
-      }
-    }
-
-    .alert {
-      padding: 5px;
-      margin-bottom: 5px;
-    }
-
-    .btn-toolbar button.btn {
-      padding: 5px 10px;
-    }
-
-    button.alert, a.alert, a.tag {
-      i {
-        margin: 0px 3px;
-        text-align: center;
-        width: 10px;
-      }
-
-      display: block;
-      text-align: left;
-      width: 135px;
-    }
-
-    button.btn, a.btn, a.tag {
-      font-size: 11px;
-    }
-
-    font-size: 11px;
   }
 
   .subpanel, .subpanel-bg {
@@ -129,6 +98,42 @@
     bottom:100px;
     width: 400px;
   }
+
+  #other-btns {
+    button, a {
+      padding: 3px 6px;
+    }
+  }
+
+  .alert {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  .btn-toolbar button.btn {
+    padding: 5px 10px;
+  }
+
+  button.alert, a.alert, a.tag {
+    i {
+      margin: 0px 3px;
+      text-align: center;
+      width: 10px;
+    }
+
+		display: block;
+		margin-bottom: 5px;
+		padding: 5px 10px;
+    text-align: left;
+    width: 135px;
+  }
+
+  button.btn, a.btn, a.tag {
+    font-size: 11px;
+  }
+
+  font-size: 11px;
+
 
 }
 
