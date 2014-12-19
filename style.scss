@@ -215,3 +215,16 @@ ul.no-bullet {
     margin-bottom: 5px;
   }
 }
+
+.notification-banner {
+	display: block;
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	width: 40%;
+	top: 110px;
+	padding: 10px 30px;
+	background-color: rgba(50,100,47,.6);
+	margin: 0px auto;
+	border-radius: 5px;
+}
