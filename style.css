@@ -77,7 +77,7 @@
     padding: 5px 10px; }
   .scinav button.alert, .scinav a.alert, .scinav a.tag {
     display: block;
-    margin-bottom: 5px;
+    margin: 0px 5px 5px 0px;
     padding: 5px 10px;
     text-align: left;
     width: 135px; }
