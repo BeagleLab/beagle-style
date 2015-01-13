@@ -17,7 +17,7 @@
 .scinav {
   font-size: 11px; }
   .scinav.sidebar {
-    position: absolute;
+    position: fixed;
     top: 0px;
     right: 0px;
     bottom: 0px;

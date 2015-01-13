@@ -1,48 +1,53 @@
 .bs-docs-header {
-  background-color: #06B8C7;
-  background-image: -webkit-linear-gradient(top,#057A75 0,#058199 100%);
-  background-image: linear-gradient(to bottom,#057A75 0,#058199 100%);
-  color: #BFE3E2;
+  background-color: #06b8c7;
+  background-image: -webkit-linear-gradient(top, #057a75 0, #058199 100%);
+  background-image: linear-gradient(to bottom, #057a75 0, #058199 100%);
+  color: #bfe3e2;
 
   a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: underline;
   }
 }
 
 .paper-example {
-  position: relative;
   height: 680px;
+  position: relative;
   width: 720px;
 
-  img#paper {
-    width:100%;
+  #paper {
+    width: 100%;
   }
 }
 
+$red: #f00;
+$yellow: #ff0;
+$cyan: #0ff;
+$green: #008000;
+
 .scinav {
-	&.sidebar {
-	  position: fixed;
-	  top: 0px;
-	  right: 0px;
-	  bottom: 0px;
-	  width: 300px;
-	}
+  &.sidebar {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+  }
 
   .red {
-    background-color: red;
+    background-color: $red;
   }
 
   .yellow {
-    background-color: yellow;
+    background-color: $yellow;
   }
 
   .cyan {
-    background-color: cyan;
+    background-color: $cyan;
   }
 
   .green {
-    background-color: green;
+    background-color: $green;
   }
 
   .gray {
@@ -50,21 +55,21 @@
   }
 
   .beagle-header {
-  	text-align: center;
+    text-align: center;
   }
 
   .margin {
+    background-color: rgba(100, 100, 100, .1);
+    bottom: 0;
     position: absolute;
+    right: 0;
     top: 55px;
-    right: 0px;
-    bottom: 0px;
     width: 10px;
-    background-color: rgba(100, 100, 100, 0.1);
 
     .margin-highlight {
-      opacity: 0.4;
-      position: absolute;
       height: 20px;
+      opacity: .4;
+      position: absolute;
       width: 10px;
     }
 
@@ -74,18 +79,19 @@
 
   }
 
-  .pane, .pane-bg {
-    position: absolute;
-    top: 0px;
-    right:10px;
-    bottom:0px;
-    width: 100%;
+  .pane,
+  .pane-bg {
+    bottom: 0;
     padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 100%;
 
     .sep {
       border-bottom: 1px solid #fff;
-      height: 0px;
-      margin: 10px 0px;
+      height: 0;
+      margin: 10px 0;
       width: 100%;
     }
 
@@ -95,44 +101,50 @@
 
   }
 
-  .subpanel, .subpanel-bg {
+  .subpanel,
+  .subpanel-bg {
+    bottom: 100px;
     position: absolute;
+    right: 160px;
     top: 105px;
-    right:160px;
-    bottom:100px;
     width: 400px;
   }
 
   #other-btns {
-    button, a {
+    button,
+    a {
       padding: 3px 6px;
     }
   }
 
   .alert {
-    padding: 5px;
     margin-bottom: 5px;
+    padding: 5px;
   }
 
   .btn-toolbar button.btn {
     padding: 5px 10px;
   }
 
-  button.alert, a.alert, a.tag {
+  button.alert,
+  a.alert,
+  a.tag {
     i {
-      margin: 0px 3px;
+      margin: 0 3px;
       text-align: center;
       width: 10px;
     }
 
-		display: block;
-		margin: 0px 5px 5px 0px;
-		padding: 5px 10px;
+    display: block;
+    margin: 0 5px 5px 0;
+    padding: 5px 10px;
     text-align: left;
     width: 135px;
   }
 
-  button.btn, a.btn, a.tag {
+  button.btn,
+  a.btn,
+  a.tag {
     font-size: 11px;
   }
 
@@ -146,19 +158,19 @@
 }
 
 .glass {
-  background:cyan;
-  background:rgba(250,255,255,0.85);
+  background: $cyan;
+  background: rgba(250, 255, 255, .85);
 
-  filter:blur(4px);
-  -o-filter:blur(4px);
-  -ms-filter:blur(4px);
-  -moz-filter:blur(4px);
-  -webkit-filter:blur(4px);
+  filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 
 ul.no-bullet {
   list-style-type: none;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .hidden {
@@ -172,11 +184,12 @@ ul.no-bullet {
   }
 
   .profile-header-info {
-    h3 {
-      margin-top: 0px;
-    }
-    width: 210px;
     float: right;
+    width: 210px;
+
+    h3 {
+      margin-top: 0;
+    }
   }
 
   .publications {
@@ -186,45 +199,46 @@ ul.no-bullet {
 
 
 .text-highlights {
+  bottom: 0;
+  left: 0;
   position: relative;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  right: 0;
+  top: 0;
 
   .text-highlight {
-    opacity: 0.4;
-    position: absolute;
     height: 20px;
+    opacity: .4;
+    position: absolute;
     width: 20px;
   }
 }
 
 #tags {
-  a.alert, a.tag {
+  a.alert,
+  a.tag {
+    display: inline-block;
+    font-size: 11px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+
     i {
-      margin: 0px 3px;
+      margin: 0 3px;
       text-align: center;
       width: 10px;
     }
-
-    display: inline-block;
-    text-align: left;
-    font-size: 11px;
-    padding: 5px;
-    margin-bottom: 5px;
   }
 }
 
 .notification-banner {
-	display: block;
-	position: relative;
-	z-index: 10;
-	text-align: center;
-	width: 40%;
-	top: 110px;
-	padding: 10px 30px;
-	background-color: rgba(50,100,47,.6);
-	margin: 0px auto;
-	border-radius: 5px;
+  background-color: rgba(50, 100, 47, .6);
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  position: relative;
+  text-align: center;
+  top: 110px;
+  width: 40%;
+  z-index: 10;
 }
