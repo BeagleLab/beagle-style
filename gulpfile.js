@@ -2,7 +2,7 @@ var gulp = require('gulp'),
   sass = require('gulp-sass'),
   autoprefixer = require('gulp-autoprefixer'),
   minifycss = require('gulp-minify-css'),
-  rename = require('gulp-rename');
+  rename = require('gulp-rename')
 
 gulp.task('sass', function () {
   gulp.src('./*.scss')
@@ -11,7 +11,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('.'))
     .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())
-    .pipe(gulp.dest('.'));
-});
+    .pipe(gulp.dest('.'))
+})
 
-gulp.task('default', ['sass']);
+gulp.task('default', ['sass'])

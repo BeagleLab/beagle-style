@@ -1,4 +1,5 @@
-var fs = require('fs');
+var fs = require('fs')
 
-exports.moduleName = 'beagle-style'; // Should eventually be manifest-like object
-exports.css = fs.readFileSync(__dirname + '/style.min.css', 'utf8');
+// TODO Should eventually be manifest-like object
+exports.moduleName = 'beagle-style'
+exports.css = fs.readFileSync(__dirname + '/style.min.css', 'utf8')
