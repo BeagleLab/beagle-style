@@ -43,14 +43,14 @@
     width: 10px; }
     .scinav .margin .margin-highlight {
       height: 20px;
-      opacity: 0.4;
+      opacity: .4;
       position: absolute;
       width: 10px; }
     .scinav .margin .tooltip {
       min-width: 200px; }
   .scinav .pane, .scinav .pane-bg {
     bottom: 0;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
     position: absolute;
     right: 10px;
     top: 0;
@@ -125,7 +125,7 @@ ul.no-bullet {
   top: 0; }
   .text-highlights .text-highlight {
     height: 20px;
-    opacity: 0.4;
+    opacity: .4;
     position: absolute;
     width: 20px; }
 
