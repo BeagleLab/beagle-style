@@ -74,6 +74,8 @@
     right: 160px;
     top: 105px;
     width: 400px; }
+  .scinav .share-panel {
+    margin-top: 20px; }
   .scinav #other-btns button, .scinav #other-btns a {
     padding: 3px 6px; }
   .scinav .alert {
