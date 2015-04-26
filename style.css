@@ -76,6 +76,12 @@
     width: 400px; }
   .scinav .share-panel {
     margin-top: 20px; }
+  .scinav .screenshot-button {
+    margin-top: 5px; }
+  .scinav .publication-details {
+    list-style: none; }
+  .scinav .email-sent {
+    margin-top: 5px; }
   .scinav #other-btns button, .scinav #other-btns a {
     padding: 3px 6px; }
   .scinav .alert {
