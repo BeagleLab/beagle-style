@@ -55,7 +55,7 @@
       min-width: 200px; }
   .scinav .pane, .scinav .pane-bg {
     bottom: 0;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 0px 10px 20px;
     position: absolute;
     overflow: scroll;
     right: 10px;
