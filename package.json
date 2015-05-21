@@ -1,6 +1,6 @@
 {
   "name": "beagle-style",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Beagle Style",
   "main": "index.js",
   "scripts": {
