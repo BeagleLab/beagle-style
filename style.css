@@ -59,7 +59,7 @@
     position: absolute;
     overflow: scroll;
     right: 10px;
-    top: 0;
+    top: 32px;
     width: 100%; }
     .scinav .pane .sep, .scinav .pane-bg .sep {
       border-bottom: 1px solid #fff;
