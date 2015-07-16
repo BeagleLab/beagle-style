@@ -17,6 +17,7 @@
 .scinav {
   font-size: 11px; }
   .scinav.sidebar {
+    border-left: 1px solid #000;
     bottom: 0;
     position: fixed;
     right: 0;
@@ -35,10 +36,6 @@
   .scinav .beagle-header {
     text-align: center;
     margin-top: 0px; }
-  .scinav .beagle-icon {
-    display: block;
-    margin: 0 auto;
-    max-width: 80px; }
   .scinav .margin {
     background-color: rgba(100, 100, 100, 0.1);
     bottom: 0;
