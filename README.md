@@ -3,10 +3,15 @@ beagle-style
 
 The Beagle Style
 
-####Install
+#### Installation
 
-`npm install`
+```sh
+npm install --save-dev beagle-style
+```
 
-####Run
+#### Development
 
-`gulp sass`   
+```sh
+npm install
+gulp sass
+```
